@@ -63,11 +63,20 @@ const Home: React.FC = () => {
                                         <div className="text-lg leading-tight">Google Play</div>
                                     </div>
                                 </button>
-                                <button className="flex items-center space-x-3 bg-neutral-900 border border-white/10 px-8 py-4 rounded-2xl font-bold hover:bg-neutral-800 transition-colors">
-                                    <Apple className="fill-current w-6 h-6" />
+                                <button className="flex items-center space-x-3 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl">
+                                    <img
+                                        src="/apple-logo.png"
+                                        alt="Apple App Store"
+                                        className="w-8 h-8 object-contain"
+                                    />
+
                                     <div className="text-left">
-                                        <div className="text-[10px] uppercase font-bold opacity-70">Download on the</div>
-                                        <div className="text-lg leading-tight">App Store</div>
+                                        <div className="text-xs uppercase font-bold opacity-70">
+                                            Download on the
+                                        </div>
+                                        <div className="text-xl leading-tight">
+                                            App Store
+                                        </div>
                                     </div>
                                 </button>
                             </div>
@@ -362,10 +371,19 @@ const Home: React.FC = () => {
                                     </div>
                                 </button>
                                 <button className="flex items-center space-x-3 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl">
-                                    <Apple className="fill-current w-7 h-7" />
+                                    <img
+                                        src="/apple-logo.png"
+                                        alt="Apple App Store"
+                                        className="w-8 h-8 object-contain"
+                                    />
+
                                     <div className="text-left">
-                                        <div className="text-xs uppercase font-bold opacity-70">Download on the</div>
-                                        <div className="text-xl leading-tight">App Store</div>
+                                        <div className="text-xs uppercase font-bold opacity-70">
+                                            Download on the
+                                        </div>
+                                        <div className="text-xl leading-tight">
+                                            App Store
+                                        </div>
                                     </div>
                                 </button>
                             </div>

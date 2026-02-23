@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
                     </div>
                     <div className="flex items-center gap-6 md:gap-8">
                         <a
-                            href="#"
+                            href="/privacy-policy"
                             className="text-white/20 hover:text-white text-xs uppercase tracking-widest transition-colors whitespace-nowrap"
                         >
                             Privacy Policy

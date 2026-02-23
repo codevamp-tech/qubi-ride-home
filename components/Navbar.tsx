@@ -36,8 +36,14 @@ const Navbar: React.FC = () => {
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                     <Link to="/" className="flex items-center space-x-2">
-                        <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center font-bold text-white italic">Q</div>
-                        <span className="text-xl font-bold tracking-tight">Qubi<span className="font-light">Ride</span></span>
+                        <img
+                            src="/qubi-ride-logo.jpeg"
+                            alt="QubiRide Logo"
+                            className="w-8 h-8 rounded-lg object-contain"
+                        />
+                        <span className="text-xl font-bold tracking-tight">
+                            Qubi<span className="font-light">Ride</span>
+                        </span>
                     </Link>
                 </div>
 
