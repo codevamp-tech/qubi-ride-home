@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
                             Privacy Policy
                         </a>
                         <a
-                            href="#"
+                            href="/terms-of-service"
                             className="text-white/20 hover:text-white text-xs uppercase tracking-widest transition-colors whitespace-nowrap"
                         >
                             Terms of Service
