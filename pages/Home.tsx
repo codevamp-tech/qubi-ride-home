@@ -56,14 +56,24 @@ const Home: React.FC = () => {
                             </p>
 
                             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-                                <button className="flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-2xl font-bold hover:bg-neutral-200 transition-colors">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.halaryde"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-2xl font-bold hover:bg-neutral-200 transition-colors"
+                                >
                                     <Play className="fill-current w-6 h-6" />
                                     <div className="text-left">
                                         <div className="text-[10px] uppercase font-bold opacity-70">Get it on</div>
                                         <div className="text-lg leading-tight">Google Play</div>
                                     </div>
-                                </button>
-                                <button className="flex items-center space-x-3 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl">
+                                </a>
+                                <a
+                                    href="https://apps.apple.com/in/app/qubi-ride/id6758943613"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center space-x-3 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl"
+                                >
                                     <img
                                         src="/apple-logo.png"
                                         alt="Apple App Store"
@@ -78,7 +88,7 @@ const Home: React.FC = () => {
                                             App Store
                                         </div>
                                     </div>
-                                </button>
+                                </a>
                             </div>
                         </div>
 
@@ -363,14 +373,24 @@ const Home: React.FC = () => {
                             </p>
 
                             <div className="flex flex-wrap justify-center gap-6">
-                                <button className="flex items-center space-x-3 bg-white text-black px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.halaryde"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center space-x-3 bg-white text-black px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl"
+                                >
                                     <Play className="fill-current w-7 h-7" />
                                     <div className="text-left">
                                         <div className="text-xs uppercase font-bold opacity-70">Get it on</div>
                                         <div className="text-xl leading-tight">Google Play</div>
                                     </div>
-                                </button>
-                                <button className="flex items-center space-x-3 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl">
+                                </a>
+                                <a
+                                    href="https://apps.apple.com/in/app/qubi-ride/id6758943613"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center space-x-3 bg-black text-white px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-2xl"
+                                >
                                     <img
                                         src="/apple-logo.png"
                                         alt="Apple App Store"
@@ -385,7 +405,7 @@ const Home: React.FC = () => {
                                             App Store
                                         </div>
                                     </div>
-                                </button>
+                                </a>
                             </div>
                             <p className="mt-8 text-white/60 text-sm">Available on Google Play & App Store</p>
                         </div>
