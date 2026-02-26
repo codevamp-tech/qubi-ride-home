@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
     return (
@@ -12,12 +13,16 @@ const Footer: React.FC = () => {
                     {/* Logo and Description */}
                     <div className="sm:col-span-2 lg:col-span-5 space-y-6 md:space-y-8">
                         <div className="flex items-center space-x-2">
-                            <div className="w-8 h-8 md:w-10 md:h-10 gradient-bg rounded-xl flex items-center justify-center font-bold text-white italic text-lg md:text-xl shadow-lg shadow-[#ffd700]/20">
-                                Q
-                            </div>
-                            <span className="text-xl md:text-2xl font-bold tracking-tight">
-                                Qubi<span className="font-light">Ride</span>
-                            </span>
+                            <Link to="/" className="flex items-center space-x-2">
+                                <img
+                                    src="/qubi-ride-logo.jpeg"
+                                    alt="QubiRide Logo"
+                                    className="w-8 h-8 rounded-lg object-contain"
+                                />
+                                <span className="text-xl font-bold tracking-tight">
+                                    Qubi<span className="font-light">Ride</span>
+                                </span>
+                            </Link>
                         </div>
                         <p className="text-white/50 max-w-sm leading-relaxed text-base md:text-lg font-light">
                             Redefining urban mobility with premium, safe, and reliable transportation. Built for the modern traveler who values time and comfort.
@@ -124,7 +129,7 @@ const Footer: React.FC = () => {
                             Privacy Policy
                         </a>
                         <a
-                            href="/terms-of-service"
+                            href="/terms-of-servicen"
                             className="text-white/20 hover:text-white text-xs uppercase tracking-widest transition-colors whitespace-nowrap"
                         >
                             Terms of Service
